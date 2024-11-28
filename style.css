@@ -1,0 +1,123 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+
+    background-color: antiquewhite;
+
+}
+
+
+/* MEGA DIV */
+
+.mega-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+
+}
+
+img{
+
+    width: 20px;
+
+}
+
+/* TABLA */
+
+table{
+
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table tr:first-child{
+
+    background-color: rgb(205, 197, 197);
+
+}
+
+table #Cambio{
+
+    background-color: rgb(205, 197, 197);
+
+}
+
+table tr:nth-child(2){
+
+    background-color: #fcffca;
+
+}
+
+table tr:nth-child(4){
+
+    background-color: #fcffca;
+
+}
+
+table tr:nth-child(2):hover{
+   
+    cursor: pointer;
+    background-color: green;
+
+}
+
+table tr:nth-child(3):hover{
+   
+    cursor: pointer;
+    background-color: green;
+
+}
+
+table tr:nth-child(4):hover{
+    
+    cursor: pointer;
+    background-color: green;
+
+}
+
+table tr:nth-child(5):hover{
+
+    cursor: pointer;
+    background-color: green;
+
+}
+
+
+table th:first-child{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left:  0px solid black;
+
+    border-right:  0px solid black;
+
+    border-top:  0px solid black;
+
+    border-bottom: 1px solid black;
+
+    background-color: rgb(206, 206, 255);
+
+}
+
+
+table th{
+    
+    
+    padding: 10px;
+    border: 1px solid black;
+    
+ 
+
+}
